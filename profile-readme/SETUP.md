@@ -10,10 +10,12 @@
 1. Open `README.md` in the new repo and click the ✏️ pencil to edit it.
 2. Paste in the contents of [`README.md`](README.md) from this folder.
 3. Edit the parts that are about you:
-   - `Your Name` in the banner URL (use `%20` for spaces) and in the typing line (use `+` for spaces)
-   - The About Me text and bullets
-   - The Tech Stack badges: delete the ones you don't use, or add more from https://simpleicons.org
-   - `your-email@example.com` and `your-linkedin` under Contact Me
+   - `Your Name` in the banner URL (use `%20` for spaces)
+   - The typing lines (each line is separated by `;`, use `+` for spaces)
+   - The `class Developer` code block under About Me
+   - The Tech Stack icons: edit the `i=` list, using names from
+     https://github.com/tandpfun/skill-icons#icons-list
+   - `your-email@example.com`, `your-linkedin` and `your-instagram` under Connect
 4. Commit. Your profile page at `github.com/spiderleagendary11-beep` now shows it.
 
 ## 3. Turn on the snake
@@ -31,11 +33,21 @@ On your profile, click **Customize your pins** and pick up to 6 repos
 (that's the "Popular repositories" grid under the README).
 
 ## Changing the look
-- **Colors:** `a855f7` (purple) is used throughout. Find-and-replace it with any hex color.
-- **Card themes:** change `theme=tokyonight` to `radical`, `dracula`, `synthwave`, `github_dark`, etc.
-  Full list: https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+- **Accent color:** electric cyan `00D9FF` is used everywhere (case doesn't matter).
+  Find-and-replace it in `README.md` to re-theme the whole profile. Some ready-made swaps:
+
+  | Look | Replace `00D9FF` with |
+  |---|---|
+  | Spider red (matches your username) | `FF1E3C` |
+  | Hacker green | `39FF14` |
+  | Gold | `FFB800` |
+
+  The banner and footer also use dark navy `0a3d62`. Swap it for a dark shade of your new
+  color (for example `5c0011` with red) so the gradient matches.
+  Also change the snake's `color_snake` in `snake.yml` to the same color.
 - **Typing text:** build your own at https://readme-typing-svg.demolab.com
-- **Banner styles:** try `type=rect`, `type=slice`, `type=venom` at https://github.com/kyechan99/capsule-render
+- **Banner styles:** change `type=venom` to `waving`, `rect`, `slice` or `soft`.
+  Previews: https://github.com/kyechan99/capsule-render
 
 ## If a card shows a broken image
 These cards come from free public servers that sometimes hit rate limits or go down.
