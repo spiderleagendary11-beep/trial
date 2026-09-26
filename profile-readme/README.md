@@ -71,8 +71,9 @@ class Developer:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=spiderleagendary11-beep&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&ring_color=00d9ff" alt="GitHub stats" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spiderleagendary11-beep&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Top languages" />
+  <!-- Generated daily by .github/workflows/stats.yml -->
+  <img height="175" src="./profile/stats.svg" alt="GitHub stats" />
+  <img height="175" src="./profile/top-langs.svg" alt="Top languages" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=spiderleagendary11-beep&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakNum=FFFFFF&currStreakLabel=00D9FF&sideNums=FFFFFF&sideLabels=00D9FF&dates=8B949E" alt="GitHub streak" />
