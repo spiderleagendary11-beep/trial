@@ -1,5 +1,5 @@
-# Generates the GitHub stats and top-languages cards as SVGs committed to this repo,
-# so the README doesn't depend on the (unreliable) public github-readme-stats server.
+# Generates the GitHub stats, top-languages and contribution-graph SVGs and commits
+# them to this repo, so the README doesn't depend on unreliable public card servers.
 name: Update stats cards
 
 on:
@@ -11,6 +11,7 @@ on:
       - main
     paths:
       - .github/workflows/stats.yml
+      - scripts/**
 
 jobs:
   build:
@@ -36,6 +37,12 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution graph
+        run: python3 scripts/activity_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
 
       - name: Commit cards
         run: |

@@ -84,7 +84,8 @@ class Developer:
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=spiderleagendary11-beep&hide_border=true&area=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area_color=00d9ff&title_color=00d9ff" alt="Contribution graph" />
+  <!-- Generated daily by .github/workflows/stats.yml (scripts/activity_graph.py) -->
+  <img width="100%" src="./profile/activity.svg" alt="Contribution graph" />
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00d9ff,100:0d1117&height=2" alt="" />
